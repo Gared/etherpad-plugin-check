@@ -1,4 +1,4 @@
-name: Test Etherpad Plugin
+name: old - Test Etherpad Plugin
 on:
   push:
     branches: ["**"]
