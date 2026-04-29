@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "status": "success",
+  "plugin": "ep_align",
+  "node": "22",
+  "etherpadVersion": "2.7.2",
+  "backendTests": "success",
+  "vitest": "success",
+  "sha": "8f38c155fef19a8bab1f149376feae1e53d0b111",
+  "ref": "refs/heads/main",
+  "runId": "25136119178",
+  "runAttempt": "1",
+  "workflow": "Test Etherpad Plugin",
+  "createdAt": ""
+}
