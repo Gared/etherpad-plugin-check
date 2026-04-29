@@ -20,12 +20,12 @@ jobs:
           set -euo pipefail
           PLUGINS="$(curl -fsSL https://static.etherpad.org/plugins.json \
             | python3 -c "import json,sys; plugins = json.load(sys.stdin); \
-            matrix = [{'name': p} for p in plugins.keys()]; \
+            matrix = [p for p in plugins.keys()]; \
             print(json.dumps(matrix))")"
           echo "matrix=$PLUGINS" >> "$GITHUB_OUTPUT"
 
   test:
-    name: "Node ${{ matrix.node }} – Etherpad ${{ matrix.etherpad-version }}"
+    name: "ep ${{ matrix.etherpad-version }} - Plugin ${{ matrix.plugin.name }}"
     needs: PluginMatrix
     runs-on: ubuntu-latest
     strategy:
@@ -88,7 +88,6 @@ jobs:
         run: pnpm run test:vitest
 
       - name: Write test status JSON
-        if: always()
         working-directory: repo
         env:
           BACKEND_RESULT: ${{ steps.backend_tests.outcome }}
@@ -129,7 +128,6 @@ jobs:
           JSON
 
       - name: Commit test status JSON
-        if: always() && github.event_name == 'push'
         working-directory: repo
         run: |
           git config user.name "github-actions[bot]"
