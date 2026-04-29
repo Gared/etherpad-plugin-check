@@ -83,42 +83,29 @@ jobs:
         run: pnpm run test:vitest
 
       - name: Write test status JSON
-        working-directory: repo
-        env:
-          BACKEND_RESULT: ${{ steps.backend_tests.outcome }}
-          VITEST_RESULT: ${{ steps.vitest_tests.outcome }}
-          PLUGIN_NAME: ${{ matrix.plugin }}
-          ETHERPAD_VERSION: ${{ matrix.etherpad-version }}
-          NODE_VERSION: ${{ matrix.node }}
-          GIT_SHA: ${{ github.sha }}
-          GIT_REF: ${{ github.ref }}
-          RUN_ID: ${{ github.run_id }}
-          RUN_ATTEMPT: ${{ github.run_attempt }}
-          WORKFLOW: ${{ github.workflow }}
-          CREATED_AT: ${{ github.run_started_at }}
         run: |
-          mkdir -p ci
+          mkdir -p status
           STATUS="failed"
           SUCCESS=false
-          if [ "$BACKEND_RESULT" = "success" ] && [ "$VITEST_RESULT" = "success" ]; then
+          if [ "${{ steps.backend_tests.outcome }}" = "success" ] && [ "${{ steps.vitest_tests.outcome }}" = "success" ]; then
             STATUS="success"
             SUCCESS=true
           fi
-          cat > ci/test-status-${{ matrix.plugin }}.json <<JSON
+          cat > "status/test-status-${{ matrix.plugin }}.json" <<JSON
           {
             "success": ${SUCCESS},
             "status": "${STATUS}",
-            "plugin": "${PLUGIN_NAME}",
-            "node": "${NODE_VERSION}",
-            "etherpadVersion": "${ETHERPAD_VERSION}",
-            "backendTests": "${BACKEND_RESULT}",
-            "vitest": "${VITEST_RESULT}",
-            "sha": "${GIT_SHA}",
-            "ref": "${GIT_REF}",
-            "runId": "${RUN_ID}",
-            "runAttempt": "${RUN_ATTEMPT}",
-            "workflow": "${WORKFLOW}",
-            "createdAt": "${CREATED_AT}"
+            "plugin": "${{ matrix.plugin }}",
+            "node": "${{ matrix.node }}",
+            "etherpadVersion": "${{ matrix.etherpad-version }}",
+            "backendTests": "${{ steps.backend_tests.outcome }}",
+            "vitest": "${{ steps.vitest_tests.outcome }}",
+            "sha": "${{ github.sha }}",
+            "ref": "${{ github.ref }}",
+            "runId": "${{ github.run_id }}",
+            "runAttempt": "${{ github.run_attempt }}",
+            "workflow": "${{ github.workflow }}",
+            "createdAt": "${{ github.run_started_at }}"
           }
           JSON
 
