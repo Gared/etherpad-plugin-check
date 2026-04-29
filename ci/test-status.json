@@ -6,9 +6,9 @@
   "etherpadVersion": "2.7.2",
   "backendTests": "success",
   "vitest": "success",
-  "sha": "a0bf91d4788967e6903869e8c576dfc60e04cb9f",
+  "sha": "633b16590e1ecaa4c15cd3fbd684b88c7629e368",
   "ref": "refs/heads/main",
-  "runId": "25135282774",
+  "runId": "25135429249",
   "runAttempt": "1",
   "workflow": "Test Etherpad Plugin",
   "createdAt": ""
