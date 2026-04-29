@@ -1,0 +1,15 @@
+{
+  "success": false,
+  "status": "failed",
+  "plugin": "ep_markdown",
+  "node": "22",
+  "etherpadVersion": "latest",
+  "backendTests": "skipped",
+  "vitest": "skipped",
+  "sha": "b8328f5f6c05112e5db6943192d8ec54cda459fa",
+  "ref": "refs/heads/main",
+  "runId": "25135174745",
+  "runAttempt": "1",
+  "workflow": "Test Etherpad Plugin",
+  "createdAt": ""
+}
