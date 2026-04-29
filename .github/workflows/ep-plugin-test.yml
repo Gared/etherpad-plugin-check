@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  DynamicVersionMatrix:
+  PluginMatrix:
     name: Load list of plugins
     runs-on: ubuntu-latest
     outputs:
@@ -26,12 +26,13 @@ jobs:
 
   test:
     name: "Node ${{ matrix.node }} – Etherpad ${{ matrix.etherpad-version }}"
+    needs: PluginMatrix
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         node: [ "22" ]
-        plugin: ${{ fromJSON(needs.DynamicVersionMatrix.outputs.matrix) }}
+        plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
         etherpad-version: [ "2.7.2" ]   # pin a specific tag, e.g. "2.2.6"
     steps:
       - name: Checkout this repository
