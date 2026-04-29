@@ -25,7 +25,7 @@ jobs:
           echo "matrix=$PLUGINS" >> "$GITHUB_OUTPUT"
 
   test:
-    name: "ep ${{ matrix.etherpad-version }} - Plugin ${{ matrix.plugin.name }}"
+    name: "ep ${{ matrix.etherpad-version }} - Plugin ${{ matrix.plugin }}"
     needs: PluginMatrix
     runs-on: ubuntu-latest
     strategy:
@@ -35,11 +35,6 @@ jobs:
         plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
         etherpad-version: [ "2.7.2" ]   # pin a specific tag, e.g. "2.2.6"
     steps:
-      - name: Checkout this repository
-        uses: actions/checkout@v6
-        with:
-          path: repo
-
       - name: Clone etherpad repository
         uses: actions/checkout@v6
         with:
@@ -127,15 +122,45 @@ jobs:
           }
           JSON
 
-      - name: Commit test status JSON
-        working-directory: repo
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ci/test-status-*.json
-          if git diff --cached --quiet; then
-            echo "No status change to commit"
-            exit 0
-          fi
-          git commit -m "ci: update test status json [skip ci]"
-          git push
+      - name: Upload status artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: "status-${{ matrix.plugin }}"
+          path: "status/test-status-${{ matrix.plugin }}.json"
+          if-no-files-found: error
+
+#  publish-status:
+#    name: Publish status JSON files
+#    needs: test
+#    if: always() && github.event_name == 'push'
+#    runs-on: ubuntu-latest
+#    permissions:
+#      contents: write
+#    steps:
+#      - name: Checkout this repository
+#        uses: actions/checkout@v4
+#
+#      - name: Download all status artifacts
+#        uses: actions/download-artifact@v4
+#        with:
+#          path: artifacts
+#          pattern: status-*
+#          merge-multiple: true
+#
+#      - name: Move status files to ci/
+#        run: |
+#          mkdir -p ci
+#          cp artifacts/test-status-*.json ci/ || true
+#
+#      - name: Commit and push once
+#        run: |
+#          git config user.name "github-actions[bot]"
+#          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+#          git add ci/test-status-*.json
+#          if git diff --cached --quiet; then
+#            echo "No status change to commit"
+#            exit 0
+#          fi
+#          git commit -m "ci: update test status json [skip ci]"
+#          git pull --rebase origin "${GITHUB_REF_NAME}"
+#          git push origin "HEAD:${GITHUB_REF_NAME}"
