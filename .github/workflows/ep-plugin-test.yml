@@ -1,9 +1,10 @@
-name: Test Etherpad Plugin
+name: Test all Etherpad plugins
 on:
-  push:
-    branches: [ "**" ]
-  pull_request:
-    branches: [ "**" ]
+  workflow_call:
+    inputs:
+      etherpad-version:
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -25,7 +26,7 @@ jobs:
           echo "matrix=$PLUGINS" >> "$GITHUB_OUTPUT"
 
   test:
-    name: "ep ${{ matrix.etherpad-version }} - Plugin ${{ matrix.plugin }}"
+    name: "ep ${{ inputs.etherpad-version }} - Plugin ${{ matrix.plugin }}"
     needs: PluginMatrix
     runs-on: ubuntu-latest
     strategy:
@@ -33,14 +34,13 @@ jobs:
       matrix:
         node: [ "22" ]
         plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
-        etherpad-version: [ "2.7.2" ]
     steps:
       - name: Clone etherpad repository
         uses: actions/checkout@v6
         with:
           repository: ether/etherpad
           path: etherpad
-          ref: ${{ matrix.etherpad-version }}
+          ref: ${{ inputs.etherpad-version }}
       - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
@@ -98,7 +98,7 @@ jobs:
             "status": "${STATUS}",
             "plugin": "${{ matrix.plugin }}",
             "node": "${{ matrix.node }}",
-            "etherpadVersion": "${{ matrix.etherpad-version }}",
+            "etherpadVersion": "${{ inputs.etherpad-version }}",
             "backendTests": "${{ steps.backend_tests.outcome }}",
             "vitest": "${{ steps.vitest_tests.outcome }}",
             "sha": "${{ github.sha }}",
@@ -114,7 +114,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: "status-${{ matrix.etherpad-version }}-${{ matrix.plugin }}"
+          name: "status-${{ inputs.etherpad-version }}-${{ matrix.plugin }}"
           path: "status/test-status-${{ matrix.plugin }}.json"
           if-no-files-found: error
 
@@ -133,7 +133,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: artifacts
-          pattern: status-${{ matrix.etherpad-version }}-*
+          pattern: status-${{ inputs.etherpad-version }}-*
           merge-multiple: true
 
       - name: Merge status files into one JSON
@@ -144,7 +144,7 @@ jobs:
           files=(artifacts/test-status-*.json)
 
           if [ "${#files[@]}" -eq 0 ]; then
-            echo "[]" > ci/test-status-${{ matrix.etherpad-version }}.json
+            echo "[]" > ci/test-status-${{ inputs.etherpad-version }}.json
             echo "No status files found; wrote empty array."
           else
             python3 - <<'PY'
@@ -157,18 +157,18 @@ jobs:
               with open(path, "r", encoding="utf-8") as f:
                   merged.append(json.load(f))
 
-          with open("ci/test-status-${{ matrix.etherpad-version }}.json", "w", encoding="utf-8") as out:
+          with open("ci/test-status-${{ inputs.etherpad-version }}.json", "w", encoding="utf-8") as out:
               json.dump(merged, out, indent=2)
               out.write("\n")
           PY
-            echo "Merged ${#files[@]} files into ci/test-status-${{ matrix.etherpad-version }}.json"
+            echo "Merged ${#files[@]} files into ci/test-status-${{ inputs.etherpad-version }}.json"
           fi
 
       - name: Commit and push once
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ci/test-status-${{ matrix.etherpad-version }}.json
+          git add ci/test-status-${{ inputs.etherpad-version }}.json
           if git diff --cached --quiet; then
             echo "No status change to commit"
             exit 0

@@ -1,0 +1,11 @@
+name: Test with Etherpad 2.7.2
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  call:
+    uses: ./.github/workflows/ep-plugin-test.yml
+    with:
+      etherpad-version: "2.7.2"
