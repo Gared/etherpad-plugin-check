@@ -66,24 +66,37 @@ jobs:
         run: npm install --no-save --legacy-peer-deps "${{ matrix.plugin }}"
 
       - name: Start Etherpad (background)
+        id: start_etherpad
         working-directory: etherpad
         run: |
+          STARTED=false
           bin/run.sh &
           echo "ETHERPAD_PID=$!" >> "$GITHUB_ENV"
           for i in $(seq 1 60); do
             if curl -sf http://localhost:9001/api > /dev/null 2>&1; then
               echo "Etherpad is ready after ${i}s"
+              STARTED=true
               break
             fi
             sleep 1
           done
+          if [ "$STARTED" != "true" ]; then
+            echo "Etherpad failed to start within 60 seconds"
+            exit 1
+          fi
 
       - name: Run the backend tests
         id: backend_tests
         working-directory: etherpad
-        run: pnpm test
+        run: |
+          if [ "${{ inputs.etherpad-version }}" = "2.7.2" ]; then
+            pnpm test
+          else
+            cd src/ && npm run test
+          fi
 
       - name: Run the new vitest tests
+        if: inputs.etherpad-version == '2.7.2'
         id: vitest_tests
         working-directory: etherpad/src
         run: pnpm run test:vitest
@@ -94,9 +107,13 @@ jobs:
           mkdir -p status
           STATUS="failed"
           SUCCESS=false
+          ETHERPAD_STARTED=false
           if [ "${{ steps.backend_tests.outcome }}" = "success" ] && [ "${{ steps.vitest_tests.outcome }}" = "success" ]; then
             STATUS="success"
             SUCCESS=true
+          fi
+          if [ "${{ steps.start_etherpad.outcome }}" = "success" ]; then
+            ETHERPAD_STARTED=true
           fi
           cat > "status/test-status-${{ matrix.plugin }}.json" <<JSON
           {
@@ -105,14 +122,11 @@ jobs:
             "plugin": "${{ matrix.plugin }}",
             "node": "${{ matrix.node }}",
             "etherpadVersion": "${{ inputs.etherpad-version }}",
+            "etherpadStarted": ${ETHERPAD_STARTED},
+            "etherpadStartup": "${{ steps.start_etherpad.outcome }}",
             "backendTests": "${{ steps.backend_tests.outcome }}",
             "vitest": "${{ steps.vitest_tests.outcome }}",
-            "sha": "${{ github.sha }}",
-            "ref": "${{ github.ref }}",
-            "runId": "${{ github.run_id }}",
-            "runAttempt": "${{ github.run_attempt }}",
-            "workflow": "${{ github.workflow }}",
-            "createdAt": "${{ github.run_started_at }}"
+            "workflow": "${{ github.workflow }}"
           }
           JSON
 
