@@ -56,8 +56,14 @@ jobs:
         run: bin/installDeps.sh
 
       - name: Install plugin
+        if: inputs.etherpad-version == '2.7.2'
         working-directory: etherpad
         run: pnpm run plugins i "${{ matrix.plugin }}"
+
+      - name: Install plugin (old way)
+        if: inputs.etherpad-version == '1.9.7'
+        working-directory: etherpad
+        run: npm install --no-save --legacy-peer-deps "${{ matrix.plugin }}"
 
       - name: Start Etherpad (background)
         working-directory: etherpad
@@ -112,7 +118,7 @@ jobs:
 
       - name: Upload status artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: "status-${{ inputs.etherpad-version }}-${{ matrix.plugin }}"
           path: "status/test-status-${{ matrix.plugin }}.json"
@@ -127,10 +133,10 @@ jobs:
       contents: write
     steps:
       - name: Checkout this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Download all status artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           path: artifacts
           pattern: status-${{ inputs.etherpad-version }}-*
