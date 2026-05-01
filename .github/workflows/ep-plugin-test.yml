@@ -20,7 +20,7 @@ jobs:
           set -euo pipefail
           PLUGINS="$(curl -fsSL https://static.etherpad.org/plugins.json \
             | python3 -c "import json,sys; plugins = json.load(sys.stdin); \
-            matrix = [p for p in plugins.keys()]; \
+            matrix = sorted(plugins.keys()); \
             print(json.dumps(matrix))")"
           echo "matrix=$PLUGINS" >> "$GITHUB_OUTPUT"
 
@@ -33,7 +33,7 @@ jobs:
       matrix:
         node: [ "22" ]
         plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
-        etherpad-version: [ "2.7.2" ]   # pin a specific tag, e.g. "2.2.6"
+        etherpad-version: [ "1.8.18", "2.7.2" ]
     steps:
       - name: Clone etherpad repository
         uses: actions/checkout@v6
@@ -83,6 +83,7 @@ jobs:
         run: pnpm run test:vitest
 
       - name: Write test status JSON
+        if: always()
         run: |
           mkdir -p status
           STATUS="failed"
@@ -110,44 +111,68 @@ jobs:
           JSON
 
       - name: Upload status artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: "status-${{ matrix.plugin }}"
+          name: "status-${{ matrix.etherpad-version }}-${{ matrix.plugin }}"
           path: "status/test-status-${{ matrix.plugin }}.json"
           if-no-files-found: error
 
-#  publish-status:
-#    name: Publish status JSON files
-#    needs: test
-#    if: always() && github.event_name == 'push'
-#    runs-on: ubuntu-latest
-#    permissions:
-#      contents: write
-#    steps:
-#      - name: Checkout this repository
-#        uses: actions/checkout@v4
-#
-#      - name: Download all status artifacts
-#        uses: actions/download-artifact@v4
-#        with:
-#          path: artifacts
-#          pattern: status-*
-#          merge-multiple: true
-#
-#      - name: Move status files to ci/
-#        run: |
-#          mkdir -p ci
-#          cp artifacts/test-status-*.json ci/ || true
-#
-#      - name: Commit and push once
-#        run: |
-#          git config user.name "github-actions[bot]"
-#          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-#          git add ci/test-status-*.json
-#          if git diff --cached --quiet; then
-#            echo "No status change to commit"
-#            exit 0
-#          fi
-#          git commit -m "ci: update test status json [skip ci]"
-#          git pull --rebase origin "${GITHUB_REF_NAME}"
-#          git push origin "HEAD:${GITHUB_REF_NAME}"
+  publish-status:
+    name: Publish status JSON files
+    needs: test
+    if: always() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Download all status artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          pattern: status-${{ matrix.etherpad-version }}-*
+          merge-multiple: true
+
+      - name: Merge status files into one JSON
+        run: |
+          set -euo pipefail
+          mkdir -p ci
+          shopt -s nullglob
+          files=(artifacts/test-status-*.json)
+
+          if [ "${#files[@]}" -eq 0 ]; then
+            echo "[]" > ci/test-status-${{ matrix.etherpad-version }}.json
+            echo "No status files found; wrote empty array."
+          else
+            python3 - <<'PY'
+          import json
+          import glob
+
+          files = sorted(glob.glob("artifacts/test-status-*.json"))
+          merged = []
+          for path in files:
+              with open(path, "r", encoding="utf-8") as f:
+                  merged.append(json.load(f))
+
+          with open("ci/test-status-${{ matrix.etherpad-version }}.json", "w", encoding="utf-8") as out:
+              json.dump(merged, out, indent=2)
+              out.write("\n")
+          PY
+            echo "Merged ${#files[@]} files into ci/test-status-${{ matrix.etherpad-version }}.json"
+          fi
+
+      - name: Commit and push once
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ci/test-status-${{ matrix.etherpad-version }}.json
+          if git diff --cached --quiet; then
+            echo "No status change to commit"
+            exit 0
+          fi
+          git commit -m "ci: update test status json [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
