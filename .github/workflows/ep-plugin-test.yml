@@ -33,7 +33,7 @@ jobs:
       matrix:
         node: [ "22" ]
         plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
-        etherpad-version: [ "1.8.18", "2.7.2" ]
+        etherpad-version: [ "2.7.2" ]
     steps:
       - name: Clone etherpad repository
         uses: actions/checkout@v6
