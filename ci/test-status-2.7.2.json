@@ -5,14 +5,11 @@
     "plugin": "ep_aa_file_menu_toolbar",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -20,14 +17,11 @@
     "plugin": "ep_add_hyperlink",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -35,14 +29,11 @@
     "plugin": "ep_adminpads2",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -50,14 +41,11 @@
     "plugin": "ep_adminpads3",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -65,14 +53,11 @@
     "plugin": "ep_ai_chat",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -80,14 +65,11 @@
     "plugin": "ep_ai_core",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -95,14 +77,11 @@
     "plugin": "ep_ai_mcp",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -110,14 +89,11 @@
     "plugin": "ep_align",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -125,14 +101,11 @@
     "plugin": "ep_announce",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -140,14 +113,11 @@
     "plugin": "ep_auth_citizenos",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -155,14 +125,11 @@
     "plugin": "ep_auth_session",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -170,14 +137,11 @@
     "plugin": "ep_auth_session_relative",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -185,14 +149,11 @@
     "plugin": "ep_author_follow",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -200,14 +161,11 @@
     "plugin": "ep_author_hover",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -215,14 +173,11 @@
     "plugin": "ep_author_line",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -230,14 +185,11 @@
     "plugin": "ep_author_neat2",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -245,14 +197,11 @@
     "plugin": "ep_authorship_toggle",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -260,14 +209,11 @@
     "plugin": "ep_back_button2",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -275,14 +221,11 @@
     "plugin": "ep_bookmark",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -290,14 +233,11 @@
     "plugin": "ep_button_link",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -305,14 +245,11 @@
     "plugin": "ep_catalog_plugin",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -320,14 +257,11 @@
     "plugin": "ep_chat_log_join_leave",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "failure",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -335,14 +269,11 @@
     "plugin": "ep_clear_authorship_no_prompt",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -350,14 +281,11 @@
     "plugin": "ep_clear_formatting",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -365,14 +293,11 @@
     "plugin": "ep_cloudron",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "failure",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -380,14 +305,11 @@
     "plugin": "ep_code_formatting",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -395,14 +317,11 @@
     "plugin": "ep_colibris_full_width",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -410,14 +329,11 @@
     "plugin": "ep_comments_page",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -425,14 +341,11 @@
     "plugin": "ep_content_title",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -440,14 +353,11 @@
     "plugin": "ep_copy_paste_select_all",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -455,14 +365,11 @@
     "plugin": "ep_countable",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -470,14 +377,11 @@
     "plugin": "ep_cursortrace",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -485,14 +389,11 @@
     "plugin": "ep_custom_inline_toolbar",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "failure",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -500,14 +401,11 @@
     "plugin": "ep_data_tables",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -515,14 +413,11 @@
     "plugin": "ep_default_colors_off",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -530,14 +425,11 @@
     "plugin": "ep_define",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -545,14 +437,11 @@
     "plugin": "ep_delete_after_delay",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -560,14 +449,11 @@
     "plugin": "ep_delete_empty_pads",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "failure",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -575,14 +461,11 @@
     "plugin": "ep_desktop_notifications",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -590,14 +473,11 @@
     "plugin": "ep_dg_auth",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -605,14 +485,11 @@
     "plugin": "ep_disable_change_author_name",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -620,14 +497,11 @@
     "plugin": "ep_disable_chat",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -635,14 +509,11 @@
     "plugin": "ep_disable_drag_and_drop",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -650,14 +521,11 @@
     "plugin": "ep_disable_error_messages",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -665,14 +533,11 @@
     "plugin": "ep_disable_imports",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -680,14 +545,11 @@
     "plugin": "ep_disable_reset_authorship_colours",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -695,14 +557,11 @@
     "plugin": "ep_discordauth",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "failure",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -710,14 +569,11 @@
     "plugin": "ep_divider_line",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -725,14 +581,11 @@
     "plugin": "ep_dm_demo",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -740,14 +593,11 @@
     "plugin": "ep_docx_html_customizer",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -755,14 +605,11 @@
     "plugin": "ep_dynamic_default_content",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -770,14 +617,11 @@
     "plugin": "ep_email_notifications",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -785,14 +629,11 @@
     "plugin": "ep_embed_floating_toolbar",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -800,14 +641,11 @@
     "plugin": "ep_embedded_hyperlinks2",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -815,14 +653,11 @@
     "plugin": "ep_embedmedia",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -830,14 +665,11 @@
     "plugin": "ep_embedmedia_tweaks",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -845,14 +677,11 @@
     "plugin": "ep_file_menu_toolbar",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -860,14 +689,11 @@
     "plugin": "ep_fileupload_aws",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -875,14 +701,11 @@
     "plugin": "ep_font_color",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -890,14 +713,11 @@
     "plugin": "ep_font_family",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -905,14 +725,11 @@
     "plugin": "ep_font_size",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -920,14 +737,11 @@
     "plugin": "ep_foot_note",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -935,14 +749,11 @@
     "plugin": "ep_framasoft",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -950,14 +761,11 @@
     "plugin": "ep_framasoft_table_of_contents",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -965,14 +773,11 @@
     "plugin": "ep_git_commit_saved_revision",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -980,14 +785,11 @@
     "plugin": "ep_google_analytics_setup",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -995,14 +797,11 @@
     "plugin": "ep_guest",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1010,14 +809,11 @@
     "plugin": "ep_hash_auth",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1025,14 +821,11 @@
     "plugin": "ep_headerauth",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1040,14 +833,11 @@
     "plugin": "ep_heading_plugin",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1055,14 +845,11 @@
     "plugin": "ep_headings2",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1070,14 +857,11 @@
     "plugin": "ep_helmet",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1085,14 +869,11 @@
     "plugin": "ep_help_bubbles",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1100,14 +881,11 @@
     "plugin": "ep_hide_line_numbers",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1115,14 +893,11 @@
     "plugin": "ep_hide_referrer",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1130,14 +905,11 @@
     "plugin": "ep_hyperlinked_text",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1145,14 +917,11 @@
     "plugin": "ep_icatplus_auth",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1160,14 +929,11 @@
     "plugin": "ep_image_insert",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1175,14 +941,11 @@
     "plugin": "ep_image_upload",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1190,14 +953,11 @@
     "plugin": "ep_images_extended",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1205,14 +965,11 @@
     "plugin": "ep_infini",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1220,14 +977,11 @@
     "plugin": "ep_inline_toolbar",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -1235,14 +989,11 @@
     "plugin": "ep_inline_toolbar_pro",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1250,14 +1001,11 @@
     "plugin": "ep_inline_voting",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1265,14 +1013,11 @@
     "plugin": "ep_invite_via_email",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1280,14 +1025,11 @@
     "plugin": "ep_joewang_123",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -1295,14 +1037,11 @@
     "plugin": "ep_kaput",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1310,14 +1049,11 @@
     "plugin": "ep_kodama",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1325,14 +1061,11 @@
     "plugin": "ep_kotocoop_image_upload",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -1340,14 +1073,11 @@
     "plugin": "ep_ldapauth_ng",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "failure",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1355,14 +1085,11 @@
     "plugin": "ep_line_spacing",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1370,14 +1097,11 @@
     "plugin": "ep_linkify2",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1385,14 +1109,11 @@
     "plugin": "ep_list_pads",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1400,14 +1121,11 @@
     "plugin": "ep_loading_message",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1415,14 +1133,11 @@
     "plugin": "ep_maadix",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1430,14 +1145,11 @@
     "plugin": "ep_mammoth",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1445,14 +1157,11 @@
     "plugin": "ep_markdown",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1460,14 +1169,11 @@
     "plugin": "ep_markdown_toc",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1475,14 +1181,11 @@
     "plugin": "ep_mathjax",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1490,14 +1193,11 @@
     "plugin": "ep_matomo",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1505,14 +1205,11 @@
     "plugin": "ep_media_upload",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1520,14 +1217,11 @@
     "plugin": "ep_mediawiki",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -1535,14 +1229,11 @@
     "plugin": "ep_mention",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -1550,14 +1241,11 @@
     "plugin": "ep_mention_plugin",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1565,14 +1253,11 @@
     "plugin": "ep_message_all",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1580,14 +1265,11 @@
     "plugin": "ep_monospace_default",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1595,14 +1277,11 @@
     "plugin": "ep_mypads",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -1610,14 +1289,11 @@
     "plugin": "ep_no_console",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1625,14 +1301,11 @@
     "plugin": "ep_oauth",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1640,14 +1313,11 @@
     "plugin": "ep_offline_edit",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1655,14 +1325,11 @@
     "plugin": "ep_openid_connect",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1670,14 +1337,11 @@
     "plugin": "ep_pad-lister",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1685,14 +1349,11 @@
     "plugin": "ep_pad_activity_nofication_in_title",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1700,14 +1361,11 @@
     "plugin": "ep_pad_title",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1715,14 +1373,11 @@
     "plugin": "ep_padlist2",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1730,14 +1385,11 @@
     "plugin": "ep_padlisting",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1745,14 +1397,11 @@
     "plugin": "ep_pads_stats",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1760,14 +1409,11 @@
     "plugin": "ep_page_breaks",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1775,14 +1421,11 @@
     "plugin": "ep_performance_test_hooks",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1790,14 +1433,11 @@
     "plugin": "ep_plugin_helpers",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1805,14 +1445,11 @@
     "plugin": "ep_post_data",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1820,14 +1457,11 @@
     "plugin": "ep_prefer_color_scheme",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1835,14 +1469,11 @@
     "plugin": "ep_previewtable",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1850,14 +1481,11 @@
     "plugin": "ep_print",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1865,14 +1493,11 @@
     "plugin": "ep_promclient",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1880,14 +1505,11 @@
     "plugin": "ep_prometheus",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1895,14 +1517,11 @@
     "plugin": "ep_prometheus_exporter",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1910,14 +1529,11 @@
     "plugin": "ep_prompt_for_name",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1925,14 +1541,11 @@
     "plugin": "ep_public_view",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1940,14 +1553,11 @@
     "plugin": "ep_real_time_chat",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1955,14 +1565,11 @@
     "plugin": "ep_reference",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1970,14 +1577,11 @@
     "plugin": "ep_resize",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -1985,14 +1589,11 @@
     "plugin": "ep_rewrite_share_paths",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2000,14 +1601,11 @@
     "plugin": "ep_right_to_left",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2015,14 +1613,11 @@
     "plugin": "ep_rocketchat",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2030,14 +1625,11 @@
     "plugin": "ep_rss",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -2045,14 +1637,11 @@
     "plugin": "ep_sciencemesh",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "failure",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -2060,14 +1649,11 @@
     "plugin": "ep_script_elements",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": false,
@@ -2075,14 +1661,11 @@
     "plugin": "ep_script_page_view",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "backendTests": "failure",
+    "etherpadStarted": false,
+    "etherpadStartup": "failure",
+    "backendTests": "skipped",
     "vitest": "skipped",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2090,14 +1673,11 @@
     "plugin": "ep_search",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2105,14 +1685,11 @@
     "plugin": "ep_set_title_on_pad",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2120,14 +1697,11 @@
     "plugin": "ep_short_edition_auth_session",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2135,14 +1709,11 @@
     "plugin": "ep_short_edition_countable",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2150,14 +1721,11 @@
     "plugin": "ep_show_whitespace",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2165,14 +1733,11 @@
     "plugin": "ep_signatureauth",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2180,14 +1745,11 @@
     "plugin": "ep_special_characters",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2195,14 +1757,11 @@
     "plugin": "ep_spellcheck",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2210,14 +1769,11 @@
     "plugin": "ep_stable_authorid",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2225,14 +1781,11 @@
     "plugin": "ep_stats",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2240,14 +1793,11 @@
     "plugin": "ep_sticky_attributes",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2255,14 +1805,11 @@
     "plugin": "ep_subscript_and_superscript",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2270,14 +1817,11 @@
     "plugin": "ep_table_of_contents",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2285,14 +1829,11 @@
     "plugin": "ep_template_content",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2300,14 +1841,11 @@
     "plugin": "ep_test_line_attrib",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2315,14 +1853,11 @@
     "plugin": "ep_text_statistics",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2330,14 +1865,11 @@
     "plugin": "ep_themes",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2345,14 +1877,11 @@
     "plugin": "ep_themes_ext",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2360,14 +1889,11 @@
     "plugin": "ep_timesliderdiff",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2375,14 +1901,11 @@
     "plugin": "ep_translations",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2390,14 +1913,11 @@
     "plugin": "ep_user_displayname",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2405,14 +1925,11 @@
     "plugin": "ep_vim",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2420,14 +1937,11 @@
     "plugin": "ep_wags",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2435,14 +1949,11 @@
     "plugin": "ep_warn_too_much_chars",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2450,14 +1961,11 @@
     "plugin": "ep_webhooks",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2465,14 +1973,11 @@
     "plugin": "ep_webrtc",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2480,14 +1985,11 @@
     "plugin": "ep_what_have_i_missed",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   },
   {
     "success": true,
@@ -2495,13 +1997,10 @@
     "plugin": "ep_who_did_what",
     "node": "22",
     "etherpadVersion": "2.7.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "sha": "b31a511b7fc92c51b700ba567e00034a2307faa9",
-    "ref": "refs/heads/main",
-    "runId": "25210660742",
-    "runAttempt": "1",
-    "workflow": "Test with Etherpad 2.7.2",
-    "createdAt": ""
+    "workflow": "Test with Etherpad 2.7.2"
   }
 ]
