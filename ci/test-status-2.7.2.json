@@ -612,15 +612,15 @@
     "workflow": "Test with Etherpad 2.7.2"
   },
   {
-    "success": false,
-    "status": "failed",
+    "success": true,
+    "status": "success",
     "plugin": "ep_email_notifications",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "etherpadStarted": false,
-    "etherpadStartup": "failure",
-    "backendTests": "skipped",
-    "vitest": "skipped",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
+    "backendTests": "success",
+    "vitest": "success",
     "workflow": "Test with Etherpad 2.7.2"
   },
   {
@@ -672,15 +672,15 @@
     "workflow": "Test with Etherpad 2.7.2"
   },
   {
-    "success": false,
-    "status": "failed",
+    "success": true,
+    "status": "success",
     "plugin": "ep_file_menu_toolbar",
     "node": "22",
     "etherpadVersion": "2.7.2",
-    "etherpadStarted": false,
-    "etherpadStartup": "failure",
-    "backendTests": "skipped",
-    "vitest": "skipped",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
+    "backendTests": "success",
+    "vitest": "success",
     "workflow": "Test with Etherpad 2.7.2"
   },
   {
