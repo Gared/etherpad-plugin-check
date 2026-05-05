@@ -25,15 +25,9 @@ jobs:
             print(json.dumps(matrix))")"
           echo "matrix=$PLUGINS" >> "$GITHUB_OUTPUT"
 
-  test:
-    name: "ep ${{ inputs.etherpad-version }} - Plugin ${{ matrix.plugin }}"
-    needs: PluginMatrix
+  prepare-etherpad:
+    name: "Prepare Etherpad ${{ inputs.etherpad-version }}"
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        node: [ "22" ]
-        plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
     steps:
       - name: Clone etherpad repository
         uses: actions/checkout@v6
@@ -41,6 +35,60 @@ jobs:
           repository: ether/etherpad
           path: etherpad
           ref: ${{ inputs.etherpad-version }}
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      - uses: pnpm/action-setup@v6
+        name: Install pnpm
+        with:
+          version: 10
+          run_install: false
+
+      - name: Restore Etherpad cache
+        id: etherpad-cache
+        uses: actions/cache@v5
+        with:
+          path: |
+            etherpad/node_modules
+            etherpad/src/node_modules
+            etherpad/admin/node_modules
+          key: etherpad-deps-${{ runner.os }}-${{ inputs.etherpad-version }}-${{ hashFiles('etherpad/pnpm-lock.yaml') }}
+          restore-keys: |
+            etherpad-deps-${{ runner.os }}-${{ inputs.etherpad-version }}
+
+      - name: Install dependencies
+        if: steps.etherpad-cache.outputs.cache-hit != 'true'
+        working-directory: etherpad
+        run: bin/installDeps.sh
+
+      - name: Upload prepared Etherpad
+        uses: actions/upload-artifact@v7
+        with:
+          name: etherpad-prepared-${{ inputs.etherpad-version }}
+          path: etherpad
+          if-no-files-found: error
+          retention-days: 1
+
+  test:
+    name: "ep ${{ inputs.etherpad-version }} - Plugin ${{ matrix.plugin }}"
+    needs:
+      - PluginMatrix
+      - prepare-etherpad
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [ "22" ]
+        plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
+    steps:
+      - name: Download prepared Etherpad
+        uses: actions/download-artifact@v8
+        with:
+          name: etherpad-prepared-${{ inputs.etherpad-version }}
+          path: etherpad
+
       - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
@@ -50,10 +98,6 @@ jobs:
         with:
           version: 10
           run_install: false
-
-      - name: Install dependencies
-        working-directory: etherpad
-        run: bin/installDeps.sh
 
       - name: Install plugin
         if: inputs.etherpad-version == '2.7.2'
