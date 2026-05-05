@@ -29,6 +29,8 @@ jobs:
     name: "ep ${{ inputs.etherpad-version }} - Plugin ${{ matrix.plugin }}"
     needs: PluginMatrix
     runs-on: ubuntu-latest
+    env:
+      PNPM_HOME: ~/.pnpm-store
     strategy:
       fail-fast: false
       matrix:
@@ -41,9 +43,19 @@ jobs:
           repository: ether/etherpad
           path: etherpad
           ref: ${{ inputs.etherpad-version }}
+
+      - uses: actions/cache@v5
+        name: Cache pnpm store
+        with:
+          path: ${{ env.PNPM_HOME }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
       - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
+          cache: 'pnpm'
 
       - uses: pnpm/action-setup@v6
         name: Install pnpm
