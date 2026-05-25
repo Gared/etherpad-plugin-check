@@ -34,7 +34,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: [ "22" ]
+        node: [ "24" ]
         plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
     steps:
       - name: Clone etherpad repository

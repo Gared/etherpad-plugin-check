@@ -1,4 +1,4 @@
-name: Test with Etherpad 2.7.2
+name: Test latest Etherpad
 on:
   push:
     branches: [ "main" ]
