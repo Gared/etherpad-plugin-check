@@ -9,7 +9,22 @@ permissions:
   contents: write
 
 jobs:
+  LoadLatestVersion:
+    name: Load latest Etherpad version
+    runs-on: ubuntu-latest
+    outputs:
+      latest-version: ${{ steps.get_version.outputs.version }}
+    steps:
+      - name: Get the latest Etherpad version
+        id: get_version
+        run: |
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/ether/etherpad/releases/latest | jq -r '.tag_name')
+          echo "Latest version: $LATEST_VERSION"
+          CLEANED_VERSION="${LATEST_TAG#v}"
+          echo "version=$CLEANED_VERSION" >> "$GITHUB_OUTPUT"
+
   call:
     uses: ./.github/workflows/ep-plugin-test.yml
+    needs: LoadLatestVersion
     with:
-      etherpad-version: "2.7.2"
+      etherpad-version: ${{ needs.LoadLatestVersion.outputs.latest-version }}
