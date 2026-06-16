@@ -1,5 +1,7 @@
 name: Test latest Etherpad
 on:
+  schedule:
+    - cron: '15 3 * * *'
   push:
     branches: [ "main" ]
   pull_request:
