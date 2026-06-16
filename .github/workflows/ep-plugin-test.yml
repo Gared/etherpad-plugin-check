@@ -87,13 +87,35 @@ jobs:
       - name: Run the backend tests
         id: backend_tests
         working-directory: etherpad
-        run: pnpm test
+        run: pnpm test 2>&1 | tee backend_tests.log
+        continue-on-error: true
 
       - name: Run the new vitest tests
-        if: always()
         id: vitest_tests
         working-directory: etherpad/src
-        run: pnpm run test:vitest
+        run: pnpm run test:vitest 2>&1 | tee ../vitest_tests.log
+        continue-on-error: true
+
+      - name: Count failed tests
+        id: count_failures
+        if: always()
+        working-directory: etherpad
+        run: |
+          BACKEND_FAILURES=0
+          VITEST_FAILURES=0
+
+          if [ -f "backend_tests.log" ]; then
+            BACKEND_FAILURES=$(grep -oE '[0-9]+ failing' backend_tests.log | grep -oE '[0-9]+' | head -1)
+            BACKEND_FAILURES=${BACKEND_FAILURES:-0}
+          fi
+
+          if [ -f "vitest_tests.log" ]; then
+            VITEST_FAILURES=$(grep -oE '[0-9]+ failing' vitest_tests.log | grep -oE '[0-9]+' | head -1)
+            VITEST_FAILURES=${VITEST_FAILURES:-0}
+          fi
+
+          echo "backend_failures=${BACKEND_FAILURES}" >> "$GITHUB_OUTPUT"
+          echo "vitest_failures=${VITEST_FAILURES}" >> "$GITHUB_OUTPUT"
 
       - name: Write test status JSON
         if: always()
@@ -120,6 +142,8 @@ jobs:
             "etherpadStartup": "${{ steps.start_etherpad.outcome }}",
             "backendTests": "${{ steps.backend_tests.outcome }}",
             "vitest": "${{ steps.vitest_tests.outcome }}",
+            "backendTestsFailedCount": ${{ steps.count_failures.outputs.backend_failures }},
+            "vitestFailedCount": ${{ steps.count_failures.outputs.vitest_failures }},
             "workflow": "${{ github.workflow }}"
           }
           JSON
