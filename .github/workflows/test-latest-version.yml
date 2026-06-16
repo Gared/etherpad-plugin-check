@@ -22,7 +22,7 @@ jobs:
         run: |
           LATEST_VERSION=$(curl -s https://api.github.com/repos/ether/etherpad/releases/latest | jq -r '.tag_name')
           echo "Latest version: $LATEST_VERSION"
-          CLEANED_VERSION="${LATEST_TAG#v}"
+          CLEANED_VERSION="${LATEST_VERSION#v}"
           echo "version=$CLEANED_VERSION" >> "$GITHUB_OUTPUT"
 
   call:
