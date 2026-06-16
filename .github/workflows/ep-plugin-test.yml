@@ -90,6 +90,7 @@ jobs:
         run: pnpm test
 
       - name: Run the new vitest tests
+        if: always()
         id: vitest_tests
         working-directory: etherpad/src
         run: pnpm run test:vitest
