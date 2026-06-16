@@ -34,7 +34,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: [ "22" ]
+        node: [ "24" ]
         plugin: ${{ fromJSON(needs.PluginMatrix.outputs.matrix) }}
     steps:
       - name: Clone etherpad repository
@@ -61,14 +61,8 @@ jobs:
         run: bin/installDeps.sh
 
       - name: Install plugin
-        if: inputs.etherpad-version == '2.7.2'
         working-directory: etherpad
         run: pnpm run plugins i "${{ matrix.plugin }}"
-
-      - name: Install plugin (old way)
-        if: inputs.etherpad-version == '1.9.7'
-        working-directory: etherpad
-        run: npm install --no-save --legacy-peer-deps "${{ matrix.plugin }}"
 
       - name: Start Etherpad (background)
         id: start_etherpad
@@ -93,15 +87,10 @@ jobs:
       - name: Run the backend tests
         id: backend_tests
         working-directory: etherpad
-        run: |
-          if [ "${{ inputs.etherpad-version }}" = "2.7.2" ]; then
-            pnpm test
-          else
-            cd src/ && npm run test
-          fi
+        run: pnpm test
 
       - name: Run the new vitest tests
-        if: inputs.etherpad-version == '2.7.2'
+        if: always()
         id: vitest_tests
         working-directory: etherpad/src
         run: pnpm run test:vitest
