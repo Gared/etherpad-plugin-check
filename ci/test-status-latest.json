@@ -1120,15 +1120,15 @@
     "workflow": "Test latest Etherpad"
   },
   {
-    "success": false,
-    "status": "failed",
+    "success": true,
+    "status": "success",
     "plugin": "ep_images_extended",
     "node": "24",
     "etherpadVersion": "3.3.2",
-    "etherpadStarted": false,
-    "etherpadStartup": "skipped",
-    "backendTests": "skipped",
-    "vitest": "skipped",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
+    "backendTests": "success",
+    "vitest": "success",
     "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
