@@ -828,6 +828,20 @@
   {
     "success": true,
     "status": "success",
+    "plugin": "ep_font_colors_rgb",
+    "node": "24",
+    "etherpadVersion": "3.3.2",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
+    "backendTests": "success",
+    "vitest": "success",
+    "backendTestsFailedCount": 0,
+    "vitestFailedCount": 0,
+    "workflow": "Test latest Etherpad"
+  },
+  {
+    "success": true,
+    "status": "success",
     "plugin": "ep_font_family",
     "node": "24",
     "etherpadVersion": "3.3.2",
@@ -1344,15 +1358,15 @@
     "workflow": "Test latest Etherpad"
   },
   {
-    "success": true,
-    "status": "success",
+    "success": false,
+    "status": "failed",
     "plugin": "ep_maadix",
     "node": "24",
     "etherpadVersion": "3.3.2",
-    "etherpadStarted": true,
-    "etherpadStartup": "success",
-    "backendTests": "success",
-    "vitest": "success",
+    "etherpadStarted": false,
+    "etherpadStartup": "skipped",
+    "backendTests": "skipped",
+    "vitest": "skipped",
     "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
