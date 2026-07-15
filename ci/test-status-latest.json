@@ -1532,7 +1532,7 @@
     "node": "24",
     "etherpadVersion": "3.3.2",
     "etherpadStarted": false,
-    "etherpadStartup": "skipped",
+    "etherpadStartup": "failure",
     "backendTests": "skipped",
     "vitest": "skipped",
     "backendTestsFailedCount": 0,
