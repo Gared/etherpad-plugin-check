@@ -65,7 +65,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 0,
+    "backendTestsFailedCount": 1,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -1358,15 +1358,15 @@
     "workflow": "Test latest Etherpad"
   },
   {
-    "success": true,
-    "status": "success",
+    "success": false,
+    "status": "failed",
     "plugin": "ep_maadix",
     "node": "24",
     "etherpadVersion": "3.3.2",
-    "etherpadStarted": true,
-    "etherpadStartup": "success",
-    "backendTests": "success",
-    "vitest": "success",
+    "etherpadStarted": false,
+    "etherpadStartup": "skipped",
+    "backendTests": "skipped",
+    "vitest": "skipped",
     "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
