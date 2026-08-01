@@ -672,20 +672,6 @@
     "workflow": "Test latest Etherpad"
   },
   {
-    "success": true,
-    "status": "success",
-    "plugin": "ep_disable_reset_authorship_colours",
-    "node": "24",
-    "etherpadVersion": "3.3.3",
-    "etherpadStarted": true,
-    "etherpadStartup": "success",
-    "backendTests": "success",
-    "vitest": "success",
-    "backendTestsFailedCount": 0,
-    "vitestFailedCount": 0,
-    "workflow": "Test latest Etherpad"
-  },
-  {
     "success": false,
     "status": "failed",
     "plugin": "ep_discordauth",
@@ -2285,20 +2271,6 @@
     "success": true,
     "status": "success",
     "plugin": "ep_test_line_attrib",
-    "node": "24",
-    "etherpadVersion": "3.3.3",
-    "etherpadStarted": true,
-    "etherpadStartup": "success",
-    "backendTests": "success",
-    "vitest": "success",
-    "backendTestsFailedCount": 0,
-    "vitestFailedCount": 0,
-    "workflow": "Test latest Etherpad"
-  },
-  {
-    "success": true,
-    "status": "success",
-    "plugin": "ep_testing_node",
     "node": "24",
     "etherpadVersion": "3.3.3",
     "etherpadStarted": true,
