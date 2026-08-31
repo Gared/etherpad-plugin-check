@@ -1528,20 +1528,6 @@
   {
     "success": true,
     "status": "success",
-    "plugin": "ep_message_all",
-    "node": "24",
-    "etherpadVersion": "3.3.3",
-    "etherpadStarted": true,
-    "etherpadStartup": "success",
-    "backendTests": "success",
-    "vitest": "success",
-    "backendTestsFailedCount": 0,
-    "vitestFailedCount": 0,
-    "workflow": "Test latest Etherpad"
-  },
-  {
-    "success": true,
-    "status": "success",
     "plugin": "ep_monospace_default",
     "node": "24",
     "etherpadVersion": "3.3.3",
