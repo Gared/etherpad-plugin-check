@@ -65,7 +65,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
