@@ -65,7 +65,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 0,
+    "backendTestsFailedCount": 1,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -289,7 +289,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 2,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -1302,16 +1302,16 @@
     "workflow": "Test latest Etherpad"
   },
   {
-    "success": false,
-    "status": "failed",
+    "success": true,
+    "status": "success",
     "plugin": "ep_ldapauth_ng",
     "node": "24",
     "etherpadVersion": "3.3.5",
-    "etherpadStarted": false,
-    "etherpadStartup": "skipped",
-    "backendTests": "skipped",
-    "vitest": "skipped",
-    "backendTestsFailedCount": 0,
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
+    "backendTests": "success",
+    "vitest": "success",
+    "backendTestsFailedCount": 20,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -1918,15 +1918,15 @@
     "workflow": "Test latest Etherpad"
   },
   {
-    "success": false,
-    "status": "failed",
+    "success": true,
+    "status": "success",
     "plugin": "ep_reference",
     "node": "24",
     "etherpadVersion": "3.3.5",
-    "etherpadStarted": false,
-    "etherpadStartup": "skipped",
-    "backendTests": "skipped",
-    "vitest": "skipped",
+    "etherpadStarted": true,
+    "etherpadStartup": "success",
+    "backendTests": "success",
+    "vitest": "success",
     "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
