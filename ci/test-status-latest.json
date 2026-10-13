@@ -9,7 +9,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -135,7 +135,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -149,7 +149,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -793,7 +793,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 0,
+    "backendTestsFailedCount": 2,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -849,7 +849,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 2,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -1059,7 +1059,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 28,
+    "backendTestsFailedCount": 27,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -1213,7 +1213,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 0,
+    "backendTestsFailedCount": 1,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -1493,7 +1493,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -1549,7 +1549,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -1871,7 +1871,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -2109,7 +2109,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -2165,7 +2165,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 1,
+    "backendTestsFailedCount": 0,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
@@ -2347,7 +2347,7 @@
     "etherpadStartup": "success",
     "backendTests": "success",
     "vitest": "success",
-    "backendTestsFailedCount": 0,
+    "backendTestsFailedCount": 1,
     "vitestFailedCount": 0,
     "workflow": "Test latest Etherpad"
   },
